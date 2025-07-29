@@ -6,11 +6,11 @@ function Menu() {
     return (
         <div className="menu">
             <ul>
-                <li>Home</li>
-                <li>Sobre</li>
-                <li>Produtos</li>
-                <li>Contato</li>
-                <li>CalcularDisconto</li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Produtos</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">CalcularDisconto</a></li>
             </ul>
         </div>
     )

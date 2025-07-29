@@ -7,12 +7,19 @@ function Header() {
 
     return (
         <header>
-            <Card 
-                fotoPerfil="FotoDePerfil.jpeg"
-                nome="Nathan"
-                descricao="Desenvolvedor"
-            />
-            <Menu />
+            <div className="header-top">
+                <Card
+                    fotoPerfil="FotoDePerfil.jpeg"
+                    nome="Nathan"
+                    descricao="Desenvolvedor"
+                />
+                        <h1 aria-label="Hi! I'm a developer" id="typer">
+                            Hi! I'm a&nbsp;<span class="typewriter"></span>
+                        </h1>
+            </div>
+            <div className="header-bottom">
+                <Menu />
+            </div>
         </header>
     )
 };
