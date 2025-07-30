@@ -1,6 +1,7 @@
 import './App.css'
 import Footer from './components/Footer/footer.jsx'
 import Header from './components/Header/header.jsx'
+import Error from './components/pages/error/error.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
