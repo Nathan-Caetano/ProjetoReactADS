@@ -72,7 +72,8 @@ header{
   }
   
   .typewriter {
-    --caret: currentcolor;
+    --caret: #0076fd;
+    color: #0076fd;
   }
   
   .typewriter::before {

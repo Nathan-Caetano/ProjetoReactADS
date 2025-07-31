@@ -1,5 +1,6 @@
 import "../../../App.css"
 import "./menu.css"
+import { Link } from "react-router-dom";
 
 function Menu() {
 
@@ -7,7 +8,7 @@ function Menu() {
         <div className="menu">
             <div>
                 <ul>
-                    <li><a href="">Home</a></li>
+                    <li><Link to="/">Home</Link></li>
                     <li><a href="">Sobre</a></li>
                     <li><a href="">Produtos</a></li>
                     <li><a href="">Contato</a></li>
