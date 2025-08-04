@@ -8,11 +8,11 @@ function Menu() {
         <div className="menu">
             <div>
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Produtos</a></li>
-                    <li><a href="">Contato</a></li>
-                    <li><a href="">CalcularDisconto</a></li>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/sobre'>Sobre</Link></li>
+                    <li><Link to='/produtos'>Produto</Link></li>
+                    <li><Link to='/contato'>Contato</Link></li>
+                    <li><Link to='/calcularDisconto'>CalcularDisconto</Link></li>
                 </ul>
             </div>
         </div>
