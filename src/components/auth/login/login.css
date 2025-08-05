@@ -1,0 +1,60 @@
+.background {
+  background-image: url("/public/rose-petals.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-container {
+  padding: 3rem 2rem;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+}
+
+#auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#form-ipts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.campo {
+  border-bottom: 1px solid white;
+  width: 300px;
+}
+
+.ipt input {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px 0px;
+  color: white;
+  font-size: 18px;
+}
+
+#form-bottom button {
+  background: linear-gradient(145deg, #007eff, #013168);
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+}

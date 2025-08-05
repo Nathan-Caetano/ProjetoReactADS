@@ -4,11 +4,14 @@ import Header from './components/Header/header.jsx'
 import Error from './components/pages/error/error.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './components/pages/home/home.jsx'
+import Login from './components/auth/login/login.jsx'
 
 function App() {
 
   return (
-    <BrowserRouter>
+
+    <Login />
+   /*<BrowserRouter>
       <Header />
       <main>
         <Routes>
@@ -17,7 +20,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-    </BrowserRouter>
+    </BrowserRouter> */
   )
 };
 
